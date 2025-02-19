@@ -90,8 +90,40 @@ body {
   margin: 0;
   color: #fff;
   line-height: 0.5;
-  margin-bottom: 60px;
-  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  background: rgba(255, 25, 255, 0.1);
+  gap: 20px;
+}
+
+.cv:hover {
+  background-color: #005bb5;
+}
+
+.cv a {
+  text-decoration: none;
+}
+.wa {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0077b5;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  line-height: 0.5;
+  margin-bottom: 40px;
+  background: rgba(255, 25, 255, 0.1);
+}
+
+.wa:hover {
+  background-color: #005bb5;
+}
+
+.wa a {
+  text-decoration: none;
 }
 
 .email-form {
@@ -153,6 +185,7 @@ body {
 .copyright {
   margin-top: 80px;
   text-align: center;
+  color: #fff;
 }
 
 @keyframes transitionAnimation {
